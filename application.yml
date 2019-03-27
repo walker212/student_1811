@@ -12,9 +12,7 @@ spring:
     password: root
     
   application:   #定义服务名称
-    name: provider-user   #如果是多个相同的服务,则名称必须相同
-  main:
-    allow-bean-definition-overriding: true   
+    name: provider-user   #如果是多个相同的服务,则名称必须相同  
 eureka:
   client:
     service-url:
